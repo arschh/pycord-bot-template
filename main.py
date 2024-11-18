@@ -19,4 +19,4 @@ async def slash_ping(ctx):
     await ctx.respond(f"Pong! Ping is {round(bot.latency * 1000)}")
 
 # let bot run
-bot.run(os.environ["TOKEN"])
+bot.run("YOUR_BOT_TOKEN")
